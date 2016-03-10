@@ -19,7 +19,7 @@ public class slotmetodo {
         Multiset<String> reelcount = HashMultiset.create();
         reelcount.addAll(reels);
 
-       // ImmutableMultiset<String> HighestCountFirst = Multisets.copyHighestCountFirst(reelcount);
+        ImmutableMultiset<String> highestCountFirst = Multisets.copyHighestCountFirst(reelcount);
         
     return 0;    
     }
